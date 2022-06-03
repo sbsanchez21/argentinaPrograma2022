@@ -1,0 +1,49 @@
+Persona:
+========
+id int(11)
+nombre varchar(50)
+apellido varchar(50)
+profesion varchar(50)
+//domicilio varchar(50) 
+acercaDe varchar(100)
+telefono int(11)
+email varchar(50)
+
+
+Domicilio:
+==========
+id int(11)
+calle varchar(50)
+altura int(8)
+entreCalles varchar(50)
+codigoPostal varchar(10) 
+localidad varchar(30)
+provincia varchar(50)
+país varchar(50)
+
+
+
+Experiencia Laboral:
+====================
+id int(11)
+cargo varchar(50)
+empresa varchar(50)
+tipoJornada varchar(20)
+fechaIni date
+fechaFin date
+ubicacion varchar(50)
+
+Educación:
+==========
+id int(11)
+institucion varchar(50)
+titulo  varchar(50)
+anioIni year
+anioFin year
+
+
+Teconologías:
+=============
+id int(11)
+nombre varchar(50)
+porcentaje int(4)
